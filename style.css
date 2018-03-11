@@ -110,6 +110,16 @@ p, a {
   line-height: 20px;
 }
 
+a.kboard-customer-button-small, input.kboard-customer-button-small, button.kboard-customer-button-small {
+  background-color: #4ca214 !important;
+  border-radius: 5px;
+}
+
+.kboard-comments-default .kboard-comments-form .comments-submit-button input[type=submit] {
+  background-color: #4ca214 !important;
+  padding: 0 15px !important;
+}
+
 #maranatha-header-menu-content {
   top: -3px;
 }
@@ -146,11 +156,6 @@ p, a {
   display: inline-block;
   border-radius: 30px;
   height: 30px;
-}
-
-a.kboard-customer-button-small, input.kboard-customer-button-small, button.kboard-customer-button-small {
-  background-color: #4ca214 !important;
-  border-radius: 5px;
 }
 
 .mean-container a.meanmenu-reveal {
