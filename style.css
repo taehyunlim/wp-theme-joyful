@@ -1,0 +1,360 @@
+/*
+ Theme Name:   Maranatha Joyful
+ Theme URI:    http://taehyunlim.com
+ Description:  Maranatha Child Theme for Joyful Church
+ Author:       TL
+ Author URI:   http://taehyunlim.com
+ Template:     maranatha
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  maranatha-joyful
+*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssc.css);
+/*  한국어 */
+:lang(ko) {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+ /* 중국어 (간체) */
+:lang(zh-Hans) {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+p, a {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*Helvetica, Arial, sans-serif;*/
+/*Georgia, Times, 'Times New Roman', serif;*/
+
+
+#maranatha-banner-image {
+    opacity: 0.3 !important;
+    background-position: bottom;
+}
+
+#maranatha-header-menu-content .menu-item a {
+  color: #23282d;
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+  top: 2.5625em;
+}
+
+.sf-menu li:not(.maranatha-dropdown-align-right):hover ul, .sf-menu li:not(.maranatha-dropdown-align-right).sfHover ul {
+  left: 0;
+}
+
+#maranatha-header-bottom.maranatha-has-header-archives.maranatha-has-breadcrumbs #maranatha-header-archives {
+  margin-left: 0;
+}
+
+.maranatha-color-main-bg h1, .maranatha-color-main-bg .maranatha-h1, .maranatha-home-section-content p {
+  color: #23282d !important;
+}
+
+.maranatha-home-section-content p, .maranatha-color-main-bg .maranatha-circle-buttons-list a {
+  color: #23282d !important;
+  border-color: #23282d !important;
+}
+
+.maranatha-color-dark-bg .maranatha-circle-buttons-list a {
+  display: table-cell;
+}
+
+.maranatha-color-light-bg .maranatha-circle-buttons-list a {
+  display: table-cell;
+}
+
+.maranatha-color-main-bg .maranatha-circle-buttons-list a {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: table-cell;
+}
+
+.maranatha-color-main-bg .maranatha-circle-buttons-list a:hover {
+  color: #23282d !important;
+  background-color: hsla(180, 1%, 31%, 0.3);
+}
+
+@media (max-width: 374px) {
+  #maranatha-header-archives {
+    display: inline-block !important;
+  }
+}
+
+#maranatha-header-search {
+  padding-top: 3px;
+}
+
+#maranatha-header-search a, #maranatha-header-search input[type=text] {
+  color: #23282d5e;
+}
+
+#maranatha-header-search input[type=text] {
+  /*border-color: #23282d !important;*/
+  box-shadow: 1px 1px 3px rgba(158, 158, 158, 0.25);
+}
+
+
+#kboard-customer-list .kboard-pagination .kboard-pagination-pages li:hover a, #kboard-customer-list .kboard-pagination .kboard-pagination-pages li.active a {
+  background-color: #4ca214 !important;
+  border-radius: 5px;
+}
+
+#kboard-customer-list .kboard-pagination .kboard-pagination-pages li a {
+  padding: 0px 5px;
+  height: 20px;
+  line-height: 20px;
+}
+
+#maranatha-header-menu-content {
+  top: -3px;
+}
+
+#maranatha-header-menu-content > li a {
+  background-color: rgba(255, 255, 255, 0.50);
+  padding: 10px 20px;
+  border-radius: 18px;
+  box-shadow: 2px 2px 3px rgba(158, 158, 158, 0.25);
+}
+
+#maranatha-header-menu-content > li a:hover {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 18px;
+  box-shadow: 1px 1px 3px rgba(158, 158, 158, 0.25);
+}
+
+.menu-item {
+  padding-bottom: 5px;
+}
+
+.sf-menu ul {
+  background-color: #ffffff00;
+  box-shadow: none;
+  padding: 5px 10px 10px 0;
+}
+
+#maranatha-banner-inner {
+  padding: 5% 0;
+}
+
+.maranatha-circle-button, .maranatha-circle-button span, .maranatha-circle-buttons-list li, .maranatha-circle-buttons-list a {
+  display: inline-block;
+  border-radius: 30px;
+  height: 30px;
+}
+
+a.kboard-customer-button-small, input.kboard-customer-button-small, button.kboard-customer-button-small {
+  background-color: #4ca214 !important;
+  border-radius: 5px;
+}
+
+.mean-container a.meanmenu-reveal {
+  color: #23282d;
+}
+
+.mean-container a.meanmenu-reveal span {
+    background-color: #23282d !important;
+}
+
+legend, td, th {
+  padding: 5px 10px;
+}
+
+.maranatha-vertical-padding-small, .maranatha-footer-no-icons #maranatha-footer-icons-notice {
+  background-color: #4ca214;
+  padding: 30px 0;
+}
+
+.maranatha-color-main-bg a, .maranatha-color-main-bg a:hover {
+  color: #4ca114
+}
+
+article.maranatha-sermon-short .maranatha-entry-content.maranatha-entry-content-short {
+  display: none;
+}
+
+.maranatha-loop-two-columns .maranatha-entry-short {
+  margin: 10px 0 35px 0;
+  padding: 15px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  width: 100%;
+}
+
+.maranatha-loop-two-columns .maranatha-entry-short:not(:nth-child(2n)) {
+  margin-right: 0;
+}
+
+.maranatha-loop-two-columns .maranatha-entry-short:nth-last-of-type(-n+2) {
+  margin-bottom: 35px;
+}
+
+.maranatha-widget .maranatha-entry-short:not(first-child) {
+  margin-top: 0.75em;
+}
+
+.maranatha-widget .maranatha-entry-short > *, .maranatha-widget .maranatha-entry-short .maranatha-entry-short-header > * {
+  margin-top: 0;
+}
+
+.maranatha-vertical-margin-medium-small-content, h1, .maranatha-h1, .maranatha-home-section-content h2, .maranatha-home-section-content .maranatha-h2, #maranatha-comments-title, h2, .maranatha-h2, #reply-title, h3, .maranatha-nav-block-title, h4, h5, h6 {
+  margin-bottom: 1.5rem;
+}
+
+.maranatha-button, .maranatha-buttons-list a, .maranatha-circle-button span, .maranatha-circle-buttons-list a, input[type=submit], .maranatha-nav-left-right a:hover, .maranatha-pagination a:hover, .maranatha-pagination span.current, .widget_tag_cloud a, .mean-container .mean-nav ul li a.mean-expand, #maranatha-header-search-mobile input[type=text] {
+  display: table-cell;
+}
+
+.maranatha-nav-left-right a:hover {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .maranatha-widget .maranatha-entry-short:not(first-child) {
+    text-align: center;
+  }
+  .maranatha-circle-buttons-list a span.el {
+    margin-top: 2px;
+  }
+}
+
+.maranatha-circle-button span, .maranatha-circle-buttons-list a {
+  font-size: 1rem;
+}
+
+.fluid-width-video-wrapper {
+    padding-top: 30%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.maranatha-circle-button a span.el, .maranatha-circle-buttons-list a span.el {
+  padding: 5px;
+  font-size: 1.0em;
+  display: block;
+}
+
+/*.maranatha-header-archive-top:nth-child(2) {
+  display: none;
+}
+*/
+
+/*
+section.maranatha-home-section.maranatha-map-section {
+  padding: 3rem 2rem;
+}
+
+section.maranatha-home-section.maranatha-map-section .maranatha-home-section-content {
+  padding: 0;
+}
+
+*/
+
+section#maranatha-home-section-1 .maranatha-home-section-inner .maranatha-home-section-content. h1, sectinon#maranatha-home-section-1 .maranatha-home-section-inner .maranatha-home-section-content. p {
+  text-shadow: #fff 1px 1px 1px;
+}
+
+.maranatha-joyful-home-section-title {
+  background: #fff6;
+  box-shadow: 1px 3px 10px #ffffff1a;
+  border-radius: 5px;
+  display: block;
+  padding: 1px 0;
+}
+
+.maranatha-home-section.maranatha-map-section {
+  padding: 25px 0;
+}
+
+.maranatha-home-section #maranatha-map-section-buttons li:not(.maranatha-map-button-more-item), #maranatha-footer #maranatha-map-section-buttons li:not(.maranatha-map-button-more-item) {
+  display: inline-block;
+}
+
+ul#maranatha-map-section-buttons {
+  text-align: center;
+}
+
+.maranatha-entry-full-map .maranatha-map-section, .maranatha-entry-full-map #maranatha-map-section-canvas {
+  max-height: 500px;
+}
+
+#maranatha-map-section-canvas {
+  opacity: 0.75;
+}
+
+.maranatha-joyful-home-section-content-timetable {
+  margin: auto auto;
+  display: table;
+  padding: 2em 1em;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
+
+table.maranatha-joyful-timetable {
+  text-align: center;
+  margin: 0;
+}
+
+#maranatha-map-section-content-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+#maranatha-map-section-right {
+  min-width: 450px;
+}
+
+#maranatha-map-section-info {
+  opacity: 0.85;
+}
+
+@media only screen and (max-width: 1024px) {
+   #maranatha-map-section-left {
+    text-align: center;
+    padding-right: 0;
+   }
+   #maranatha-map-section-right {
+    display: none;
+   }
+   #maranatha-map-section-canvas {
+    max-height: 500px;
+   }
+   .maranatha-map-section, #maranatha-map-section-canvas {
+    max-height: 500px;
+   }
+   .maranatha-home-section.maranatha-map-section, .maranatha-joyful-timetable-small {
+    padding: 25px 0;
+   }
+
+}
+
+#maranatha-footer-widgets aside {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  padding: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+  #maranatha-footer-widgets aside {
+    margin-right: 3%;
+    width: 30.333%;
+  }
+}
+
+.maranatha-caption-image-caption .maranatha-caption-image-title {
+  background-color: #8BC34A !important;
+}
+
+ul.page-numbers .el-chevron-left {
+    margin-left: -5px;
+}
+
+ul.page-numbers li {
+  display: inline-table;
+}
