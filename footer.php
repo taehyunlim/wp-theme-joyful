@@ -35,10 +35,6 @@ if ( ! empty( $map_lat ) && ! empty( $map_lng ) ) {
 	$has_map = true;
 }
 
-// Custom (maranatha-joyful):  Add a map before the footer
-get_template_part( CTFW_THEME_PARTIAL_DIR . '/map-section' );
-
-
 // Notice / Copyright
 $footer_notice = ctfw_customization( 'footer_notice' );
 
