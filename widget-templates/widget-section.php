@@ -190,11 +190,13 @@ if ( $maranatha_home_section_num > 1 ) {
 </section>
 
 <?php if ( $first_section ) : ?>
-
-	<?php
-	// Load map section (also used in footer on sub-pages)
-	// Don't check has_map, needs to set a global
-	get_template_part( CTFW_THEME_PARTIAL_DIR . '/map-section' );
-	?>
-
+<!-- Show Masterslider only on the first section of homepage -->
+	<?php if ( is_page_template( CTFW_THEME_PAGE_TPL_DIR . '/homepage.php' ) ): ?>
+		<div id="maranatha-home-section-media">
+		  <div class="maranatha-home-section-inner">
+		    <!-- // Masterslider shortcode -->
+		    <?php masterslider(2); ?>
+		  </div>
+		</div>
+	<?php endif; ?>
 <?php endif; ?>

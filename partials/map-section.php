@@ -459,14 +459,4 @@ if ( ! empty( $data['times'] ) && $header_or_footer ) { // don't show times on L
 </section>
 <?php endif; ?>
 
-<!-- Show Masterslider only on the homepage -->
-<?php if ( is_page_template( CTFW_THEME_PAGE_TPL_DIR . '/homepage.php' ) ): ?>
-<div id="maranatha-home-section-media">
-  <div class="maranatha-home-section-inner">
-    <!-- // Masterslider shortcode -->
-    <?php masterslider(2); ?>
-  </div>
-</div>
-<?php endif; ?>
-
 <?php if ( $after ) echo $after; ?>
